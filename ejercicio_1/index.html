@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submarine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="tittle-game">
+        <h1>Submarine the game</h1>
+        <h3>The best game of submarine</h3>
+    </section>
+    <section id="select-level">
+        <div id="level-cell">
+            <p>
+                Select the size of table:
+            </p>
+            <a id="table-1">2x2</a>
+            <a id="table-2">4x4</a>
+            <a id="table-3">8x8</a>
+        </div>
+    </section>
+    <div id="table-game">
+        <template id="container-cell">
+            <div class="cell"></div>
+        </template>
+    </div>
+    <!--Recordar poner type:module sino no va-->
+    <script src="js/game.js" type="module"></script>
+</body>
+</html>
